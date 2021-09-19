@@ -50,7 +50,7 @@ public class WriteExcel {
 		CellStyle style = sheet.getWorkbook().createCellStyle();
 		Font font = sheet.getWorkbook().createFont();
 		style.setFillForegroundColor(IndexedColors.LIGHT_ORANGE.getIndex());  
-        style.setFillPattern(FillPatternType.SOLID_FOREGROUND);  
+                style.setFillPattern(FillPatternType.SOLID_FOREGROUND);  
 		font.setBold(true);
 		style.setFont(font);
 		
@@ -82,7 +82,7 @@ public class WriteExcel {
 
 class Trigger {
 	
-	private String serverName;
+    private String serverName;
     private String triggerName;
     private String comments;
  
